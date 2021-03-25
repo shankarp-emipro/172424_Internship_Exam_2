@@ -8,6 +8,9 @@ This module contains all the sales commission related calculations.
     """,
     'depends': ['sale'],
     'data': [
+        'security/sales_commission_ept_security.xml',
+        'security/ir.model.access.csv',
+        'views/sales_commission_ept_menus.xml'
 
     ],
     'installable': True,
